@@ -1,8 +1,10 @@
 *{
     margin: 0;
+  font-family: "Playfair Display"
+
 }
 
-nav{
+nav{  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,3 +40,4 @@ nav li:last-child a{
 nav li:last-child a:hover{
     color: black;
 }
+
