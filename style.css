@@ -1,6 +1,6 @@
 *{
     margin: 0;
-  font-family: "Playfair Display"
+    font-family: "DM Serif Text", serif;
 
 }
 
@@ -23,10 +23,6 @@ nav a{
     text-decoration: none;
 }
 
-h1{
-    color: white;
-}
-
 nav a:hover {
 color: red;
 }
@@ -41,3 +37,55 @@ nav li:last-child a:hover{
     color: black;
 }
 
+.hero{
+    height: 90vh;
+    background: url(media/banner.png) no-repeat center/cover;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+ 
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: darkred;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.hero button:hover{
+    background: red;
+}
+
+.video-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+}
+
+.video-text{
+    flex: 1;
+}
+
+.video-box{
+    flex: 1;
+}
+
+.video-box video{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-text h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.video-text p{
+    font-size: 18px;
+    color: #444;
+}
