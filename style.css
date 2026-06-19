@@ -176,3 +176,24 @@ header{
     top: 0;
     z-index: 1;
 }
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+
+thead{
+    background-color: red;
+    color: white;
+}
+
+.item img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
