@@ -177,13 +177,19 @@ header{
     z-index: 1;
 }
 
+.cart{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
 table{
     width: 70%;
-    border-collapse: collapse;
-    background: #fff;
+    background: wheat;
     border-radius: 10px;
-    overflow: hidden;
-    margin: auto;
+    position: sticky;
+        border-collapse: collapse;
 }
 
 thead{
@@ -191,9 +197,82 @@ thead{
     color: white;
 }
 
+.item{
+ display: flex;
+ gap: 20px;
+ align-items: center    ;
+}
+
 .item img{
     width: 70px;
     height: 70px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+th,td{
+    padding: 20px;
+    text-align: center;
+}
+
+tr{
+    border-bottom: 1px solid black;
+}
+
+.item h4{
+    margin-bottom: 10px;
+}
+
+.qty-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.qty-box button{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: wheat;
+}
+
+.qty-box button:hover{
+    background: darkred;
+}
+
+.remove{
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: wheat;
+    padding: 8px 12px;
+}
+
+.remove:hover{
+    background-color: darkred;
+}
+
+.grand-total button{
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: wheat;
+    padding: 12px 20px;
+}
+
+.grand-total button:hover{
+    background: darkred;
+}
+
+.grand-total td{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 30px;
 }
