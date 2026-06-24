@@ -167,70 +167,71 @@ nav li:last-child a:hover {
     transform: scale(1.1);
 }
 
-.icon-box p:hover{
+.icon-box p:hover {
     color: red;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     z-index: 1;
 }
 
-.cart{
+.cart {
     width: 100%;
     padding: 40px 0;
     display: flex;
     justify-content: center;
 }
 
-table{
+table {
     width: 70%;
     background: wheat;
     border-radius: 10px;
     position: sticky;
-        border-collapse: collapse;
+    border-collapse: collapse;
 }
 
-thead{
+thead {
     background-color: red;
     color: white;
 }
 
-.item{
- display: flex;
- gap: 20px;
- align-items: center    ;
+.item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
-.item img{
+.item img {
     width: 70px;
     height: 70px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-th,td{
+th,
+td {
     padding: 20px;
     text-align: center;
 }
 
-tr{
+tr {
     border-bottom: 1px solid black;
 }
 
-.item h4{
+.item h4 {
     margin-bottom: 10px;
 }
 
-.qty-box{
+.qty-box {
     display: flex;
     align-items: center;
     gap: 10px;
     justify-content: center;
 }
 
-.qty-box button{
+.qty-box button {
     width: 30px;
     height: 30px;
     border-radius: 10px;
@@ -241,11 +242,11 @@ tr{
     color: wheat;
 }
 
-.qty-box button:hover{
+.qty-box button:hover {
     background: darkred;
 }
 
-.remove{
+.remove {
     border-radius: 10px;
     background-color: red;
     border: none;
@@ -254,11 +255,11 @@ tr{
     padding: 8px 12px;
 }
 
-.remove:hover{
+.remove:hover {
     background-color: darkred;
 }
 
-.grand-total button{
+.grand-total button {
     border-radius: 10px;
     background-color: red;
     border: none;
@@ -267,13 +268,71 @@ tr{
     padding: 12px 20px;
 }
 
-.grand-total button:hover{
+.grand-total button:hover {
     background: darkred;
 }
 
-.grand-total td{
+.grand-total td {
     font-weight: bold;
     font-size: 20px;
     padding: 30px 30px;
 }
 
+.auth-container {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #000;
+}
+
+.auth-box {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 320px;
+}
+
+.auth-box button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0;
+    width: 40%;
+    cursor: pointer;
+
+}
+
+ .auth-box h2 {
+    margin-bottom: 20px;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: 10px 0;
+    outline: none;
+}
+
+.auth-box button:hover{
+    background-color: darkred;
+}
+
+.auth-box input:focus{
+ border-color: red;
+}
+
+.auth-box a{
+    color: red;
+    text-decoration: none;
+}
+
+.auth-box p{
+    margin-top: 5px;
+    font-size: 14px;
+}
