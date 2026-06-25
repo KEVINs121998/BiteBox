@@ -294,7 +294,7 @@ tr {
     width: 320px;
 }
 
-.auth-box button{
+.auth-box button {
     background-color: red;
     color: white;
     padding: 10px;
@@ -306,7 +306,7 @@ tr {
 
 }
 
- .auth-box h2 {
+.auth-box h2 {
     margin-bottom: 20px;
 }
 
@@ -319,20 +319,92 @@ tr {
     outline: none;
 }
 
-.auth-box button:hover{
+.auth-box button:hover {
     background-color: darkred;
 }
 
-.auth-box input:focus{
- border-color: red;
+.auth-box input:focus {
+    border-color: red;
 }
 
-.auth-box a{
+.auth-box a {
     color: red;
     text-decoration: none;
 }
 
-.auth-box p{
+.auth-box p {
     margin-top: 5px;
     font-size: 14px;
+}
+
+.deals-page {
+    background-color: red;
+    padding: 40px;
+}
+
+.deal-hero{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.deal-hero h1{
+    font-size: 40px;
+}
+
+.deal-hero p{
+    font-size: 18px;
+}
+
+.combo-section{
+    padding: 40px;
+}
+
+.combo-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.combo-card img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.combo-card{
+    background: wheat;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.combo-card h4{
+    margin: 10px 0;
+}
+
+.combo-card span{
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+
+.combo-card button{
+background: red;
+border-radius: 20px;
+cursor: pointer;
+border: none;
+padding: 10px 20px;
+color: white;
+}
+
+.combo-card button:hover{
+    background-color: darkred;
+}
+
+.combo-card:hover{
+    transform: translateY(-8px);
 }

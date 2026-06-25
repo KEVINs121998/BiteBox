@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BiteBox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    this is bitedeals page
+    <header>
+        <nav>
+            <a href="home.html"><img src="images/logo.png" alt="logo" width="180px"></a>
+            <ul>
+                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="bitedeals.html">Bitedeals</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-plus"></i></a></li>
+                <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="deals-page">
+        <div class="deal-hero">
+            <h1>BiteDeals</h1>
+            <p>Save more on your favorite meals</p>
+        </div>
+    </section>
+    <section class="combo-section">
+        <h2 class="section-title">Today's Combo offer</h2>
+        <div class="combo-container">
+            <div class="combo-card">
+                <img src="images/burger.jpg" alt="burger image">
+                <h3>Burger + Fries</h3>
+                <p>Perfect Snacks combo</p>
+                <h4><span>Rs 399 </span> Rs 299</h4>
+                <button>Order Now</button>
+            </div>
+
+            <div class="combo-card">
+                <img src="images/fries.jpg" alt="Fries image">
+                <h3>Fries</h3>
+                <p>Perfect Snacks combo</p>
+                <h4><span>Rs 299 </span> Rs 199</h4>
+                <button>Order Now</button>
+            </div>
+
+            <div class="combo-card">
+                <img src="images/paneer pizza.webp" alt="pizza image">
+                <h3>Pizza + Coke</h3>
+                <p>Perfect Snacks combo</p>
+                <h4><span>Rs 599 </span> Rs 499</h4>
+                <button>Order Now</button>
+            </div>
+
+        </div>
+    </section>
 </body>
+
 </html>
