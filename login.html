@@ -9,6 +9,7 @@ bite    <title>BiteBox</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+<script src="script.js"></script>
 </head>
 <body>
       <header>
@@ -27,9 +28,10 @@ bite    <title>BiteBox</title>
         <div class="auth-box">
             <h2>Login to Bite<span style="color: red;">Box</span></h2>
             <form>
-                <input type="email" placeholder="Enter Email" required><br>
-                <input type="password" placeholder="Enter Password" required><br>
-                <button type="submit">Login</button>
+                <input id="email" type="email" placeholder="Enter Email" required><br>
+                <input id="password" type="password" placeholder="Enter Password" required><br>
+                <button type="button" onclick="login()">Login</button>
+                <p id="error" style="color: red;"></p> 
                 <p><a href="signup.html">Forgot Password</a></p>
                 <p>Don't have an account <a href="signup.html">Signup</a></p>
             </form>

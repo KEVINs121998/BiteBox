@@ -408,3 +408,49 @@ color: white;
 .combo-card:hover{
     transform: translateY(-8px);
 }
+
+.section-title{
+ margin-bottom: 10px;
+}
+
+.deals-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.deal-card{
+    background-color: wheat;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.deal-card h3{
+    margin-bottom: 10px;
+}
+
+.deal-card span{
+    display: inline-block;
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.deal-card:hover{
+    transform: translateY(-20px);
+}
+
+.red{
+    border-top: 5px solid red;
+}
+
+.yellow{
+    border-top: 5px solid yellow;
+}
+
+.green{
+    border-top: 5px solid green;
+}
