@@ -28,8 +28,11 @@ bite    <title>BiteBox</title>
         <div class="auth-box">
             <h2>Login to Bite<span style="color: red;">Box</span></h2>
             <form>
-                <input id="email" type="email" placeholder="Enter Email" required><br>
-                <input id="password" type="password" placeholder="Enter Password" required><br>
+                <input id="email" type="email" placeholder="Enter Email" required>
+                <div style="position: relative;">
+                    <input id="password" type="password" placeholder="Enter Password" required>
+                    <i style="position: absolute; top: 20px; right: 0;" onclick="togglePassword()" class="fa-solid fa-eye"></i>
+                </div>
                 <button type="button" onclick="login()">Login</button>
                 <p id="error" style="color: red;"></p> 
                 <p><a href="signup.html">Forgot Password</a></p>
