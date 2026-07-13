@@ -28,4 +28,15 @@ function togglePassword(){
     }
 }
 
-
+function toggleMenu(){
+    let menu=document.getElementById("navMenu")
+    let icon=document.getElementById("menuIcon")
+    menu.classList.toggle('show')
+    if(menu.classList.contains('show')){
+icon.classList.remove('fa-bars-staggered');
+icon.classList.add('fa-xmark')
+    }else{
+        icon.classList.remove('fa-xmark')  
+      icon.classList.add('fa-bars-staggered');
+    }
+}

@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BiteBox</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
             <a href="home.html"><img src="images/logo.png" alt="logo" width="180px"></a>
-            <ul>
+            <button class="menu-btn" onclick="toggleMenu()">
+                <i id="menuIcon" class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <ul id="navMenu">
                 <li><a href="Home.html" class="active">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="bitedeals.html">Bitedeals</a></li>
@@ -35,27 +41,64 @@
         </div>
     </section>
     <section class="video-section">
-<div class="video-text">
-    <h2>Our Food Story</h2>
-    <p>Experience the taste of delicious meal
-            created with love.From burgers to pizzas,
-            we deliver happiness at your doorstep .</p>
-</div>
-<div class="video-box">
-<video autoplay muted loop>
-    <source src="media/video.mp4" type="video/mp4">
-</video>
-</div>
+        <div class="video-text">
+            <h2>Our Food Story</h2>
+            <p>Experience the taste of delicious meal
+                created with love.From burgers to pizzas,
+                we deliver happiness at your doorstep .</p>
+        </div>
+        <div class="video-box">
+            <video autoplay muted loop>
+                <source src="media/video.mp4" type="video/mp4">
+            </video>
+        </div>
     </section>
-<section class="about">
-<h2>Who are we?</h2>
-<p>We are passionate food lovers dedicated to
-        bringing you the best dining experience.
-        Our mission is to serve fresh, high-quality meals
-        made with love and delivered with care.
-        From quick bites to full meals,
-        we ensure every order brings satisfaction and joy.</p>
-</section>
+    <section class="about">
+        <h2>Who are we?</h2>
+        <p>We are passionate food lovers dedicated to
+            bringing you the best dining experience.
+            Our mission is to serve fresh, high-quality mealsx
+            made with love and delivered with care.
+            From quick bites to full meals,
+            we ensure every order brings satisfaction and joy.</p>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2>BiteBox</h2>
+                <p>Delicious food delivered to your doorsteps,fresh,fast and tasty</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="bitedeals.html">Bitedeals</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>Email:bitebox@gmail.com</p>
+                <p>Phone: 985567778</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>2026 BiteBox | All Right Reserved </p>
+        </div>
+    </footer>
 </body>
 
 </html>
